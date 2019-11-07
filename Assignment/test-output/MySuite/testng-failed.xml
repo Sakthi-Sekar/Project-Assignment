@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [MySuite]">
+  <test thread-count="3" parallel="tests" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.org.atmecs.dynamic.HomePage">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.org.atmecs.dynamic.HomePage -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
